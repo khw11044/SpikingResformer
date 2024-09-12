@@ -1,6 +1,6 @@
 seed: 12450
 epochs: 600
-batch_size: 128
+batch_size: 64
 T: 4
 model: spikingresformer_cifar
 dataset: CIFAR10
