@@ -4,8 +4,27 @@
 
 ```bash
 pip3 install torch torchvision
-pip3 install tensorboard thop spikingjelly==0.0.0.0.14 cupy-cuda11x timm
+pip3 install tensorboard thop cupy-cuda11x timm
 ```
+
+## spikingjelly
+
+spikingjelly은 pip install spikingjelly 하면 나중에 오류남 
+
+아래와 같이 해주자 
+
+```
+git clone https://github.com/fangwei123456/spikingjelly.git
+cd spikingjelly
+python setup.py install
+```
+
+
+## 대모 코랩 
+
+https://colab.research.google.com/drive/1cBVD9gYJ7Pm8BCnBX4-WOVetNqkxb3tl?usp=sharing
+
+
 
 ## Usage
 
